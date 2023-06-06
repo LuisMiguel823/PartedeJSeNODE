@@ -4,13 +4,13 @@ const connection = mysql.createConnection({
   host : 'localhost',
   user : 'root',
   password: '',
-  port :3307,
-  database : 'alexandre'  
+  port :1010,
+  database : 'Luis Miguel'  
 });
 
 connection.connect();
 
-console.log("conectado!");
+console.log("Perfeito!");
 
 
 let query = "insert into usuario(login,senha) values('alaba2020','delcio4040');";
