@@ -4,12 +4,12 @@ const connection = mysql.createConnection({
   host : 'localhost',
   user : 'root',
   password: '',
-  port :3307,
-  database : 'alexandre'  
+  port :1010,
+  database : 'Luis Miguel'  
 });
 connection.connect();
 
-console.log("conectado!");
+console.log("Perfeito!");
 
 
 let query = "update usuario set senha = 'albaalba' where codigo =3;";
