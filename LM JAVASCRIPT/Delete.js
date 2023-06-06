@@ -4,12 +4,12 @@ const connection = mysql.createConnection({
   host : 'localhost',
   user : 'root',
   password: '',
-  port :3307,
-  database : 'alexandre'  
+  port :1010,
+  database : 'Luis Miguel'  
 });
 connection.connect();
 
-console.log("conectado!");
+console.log("Conexão estabelecida");
 
 
 let query = "delete from usuario  where codigo =2;";
